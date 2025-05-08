@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/240f7199-bbfd-4813-a4a4-9696fff15075)
+
 # **RedRoute: Network Shortest Path Finder & Simulator**
 
 **RedRoute** is a conceptual network simulation tool designed to visualize and compute the shortest path between two hosts in a complex network topology. Built using Python, NetworkX, Tkinter, and Matplotlib, **RedRoute** helps users better understand network routing by visualizing paths, nodes, and their interconnections.
