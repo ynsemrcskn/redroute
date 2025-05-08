@@ -1,8 +1,38 @@
 ![image](https://github.com/user-attachments/assets/240f7199-bbfd-4813-a4a4-9696fff15075)
 
-# **RedRoute: Network Shortest Path Finder & Simulator**
+<div align="center">
+  <h1><b><code>RedRoute</code> Network Shortest Path Finder & Simulator</b></h1>
+  <p><strong>RedRoute</strong> is a conceptual network simulation tool designed to visualize and compute the shortest path between two hosts in a complex network topology. Built using Python, NetworkX, Tkinter, and Matplotlib, <strong>RedRoute</strong> helps users better understand network routing by visualizing paths, nodes, and their interconnections.</p>
 
-**RedRoute** is a conceptual network simulation tool designed to visualize and compute the shortest path between two hosts in a complex network topology. Built using Python, NetworkX, Tkinter, and Matplotlib, **RedRoute** helps users better understand network routing by visualizing paths, nodes, and their interconnections.
+  <p>
+    <a href="https://s-m-quadri.me/projects/redbert">Homepage</a> ·
+    <a href="https://github.com/s-m-quadri/redroute">Repository</a> ·
+    <a href="https://github.com/s-m-quadri/redroute/releases">Download Executable</a> ·
+    <a href="mailto:dev.smq@gmail.com">Contact</a>
+  </p>
+
+  <a href="https://github.com/s-m-quadri/redroute/releases">
+         <img src="https://custom-icon-badges.demolab.com/github/v/tag/s-m-quadri/redroute?label=Version&labelColor=302d41&color=f2cdcd&logoColor=d9e0ee&logo=tag&style=for-the-badge" alt="Release Version"/>
+  </a>
+  <a href="https://www.codefactor.io/repository/github/s-m-quadri/redroute"><img src="https://img.shields.io/codefactor/grade/github/s-m-quadri/redroute?label=CodeFactor&labelColor=302d41&color=8bd5ca&logoColor=d9e0ee&logo=codefactor&style=for-the-badge" alt="GitHub Readme Profile Code Quality"/></a>
+  <a href="https://github.com/s-m-quadri/redroute/issues">
+    <img src="https://custom-icon-badges.demolab.com/github/issues/s-m-quadri/redroute?label=Issues&labelColor=302d41&color=f5a97f&logoColor=d9e0ee&logo=issue&style=for-the-badge" alt="Issues"/>
+  </a>
+  <a href="https://github.com/s-m-quadri/redroute/pulls">
+    <img src="https://custom-icon-badges.demolab.com/github/issues-pr/s-m-quadri/redroute?label=PRs&labelColor=302d41&color=ddb6f2&logoColor=d9e0ee&logo=git-pull-request&style=for-the-badge" alt="Pull Requests"/>
+  </a>
+  <a href="https://github.com/s-m-quadri/redroute/graphs/contributors">
+    <img src="https://custom-icon-badges.demolab.com/github/contributors/s-m-quadri/redroute?label=Contributors&labelColor=302d41&color=c9cbff&logoColor=d9e0ee&logo=people&style=for-the-badge" alt="Contributors"/>
+  </a>
+
+  <p>
+    <a href="https://github.com/s-m-quadri/redroute/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a> · 
+    <a href="https://github.com/s-m-quadri/redroute/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Request Feature</a> · 
+    <a href="https://github.com/s-m-quadri/redroute/discussions/new?category=q-a">Ask Question</a> · 
+    <a href="https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md">Support 🇵🇸 Palestine<a>
+  </p>
+</div>
+
 
 ## 📌 **Features**
 
