@@ -5,7 +5,7 @@
   <p><strong>RedRoute</strong> is a conceptual network simulation tool designed to visualize and compute the shortest path between two hosts in a complex network topology. Built using Python, NetworkX, Tkinter, and Matplotlib, <strong>RedRoute</strong> helps users better understand network routing by visualizing paths, nodes, and their interconnections.</p>
 
   <p>
-    <a href="https://s-m-quadri.me/projects/redbert">Homepage</a> ·
+    <a href="https://s-m-quadri.me/projects/redroute">Homepage</a> ·
     <a href="https://github.com/s-m-quadri/redroute">Repository</a> ·
     <a href="https://github.com/s-m-quadri/redroute/releases">Download Executable</a> ·
     <a href="mailto:dev.smq@gmail.com">Contact</a>
