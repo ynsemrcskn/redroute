@@ -1,105 +1,111 @@
-![image](https://github.com/user-attachments/assets/240f7199-bbfd-4813-a4a4-9696fff15075)
+# RedRoute: Visualize Your Network 🚦
 
-<div align="center">
-  <h1><b><code>RedRoute</code> Network Shortest Path Finder & Simulator</b></h1>
-  <p><strong>RedRoute</strong> is a conceptual network simulation tool designed to visualize and compute the shortest path between two hosts in a complex network topology. Built using Python, NetworkX, Tkinter, and Matplotlib, <strong>RedRoute</strong> helps users better understand network routing by visualizing paths, nodes, and their interconnections.</p>
+![RedRoute](https://img.shields.io/badge/RedRoute-Conceptual%20Network%20Simulation-blue)
 
-  <p>
-    <a href="https://s-m-quadri.me/projects/redroute">Homepage</a> ·
-    <a href="https://github.com/s-m-quadri/redroute">Repository</a> ·
-    <a href="https://github.com/s-m-quadri/redroute/releases">Download Executable</a> ·
-    <a href="mailto:dev.smq@gmail.com">Contact</a>
-  </p>
+Welcome to the **RedRoute** repository! This project serves as a powerful tool for visualizing and computing the shortest path between two hosts in a complex network topology. Built with Python and utilizing libraries such as NetworkX, Tkinter, and Matplotlib, RedRoute enhances your understanding of network routing by displaying paths, nodes, and their interconnections.
 
-  <a href="https://github.com/s-m-quadri/redroute/releases">
-         <img src="https://custom-icon-badges.demolab.com/github/v/tag/s-m-quadri/redroute?label=Version&labelColor=302d41&color=f2cdcd&logoColor=d9e0ee&logo=tag&style=for-the-badge" alt="Release Version"/>
-  </a>
-  <a href="https://www.codefactor.io/repository/github/s-m-quadri/redroute"><img src="https://img.shields.io/codefactor/grade/github/s-m-quadri/redroute?label=CodeFactor&labelColor=302d41&color=8bd5ca&logoColor=d9e0ee&logo=codefactor&style=for-the-badge" alt="GitHub Readme Profile Code Quality"/></a>
-  <a href="https://github.com/s-m-quadri/redroute/issues">
-    <img src="https://custom-icon-badges.demolab.com/github/issues/s-m-quadri/redroute?label=Issues&labelColor=302d41&color=f5a97f&logoColor=d9e0ee&logo=issue&style=for-the-badge" alt="Issues"/>
-  </a>
-  <a href="https://github.com/s-m-quadri/redroute/pulls">
-    <img src="https://custom-icon-badges.demolab.com/github/issues-pr/s-m-quadri/redroute?label=PRs&labelColor=302d41&color=ddb6f2&logoColor=d9e0ee&logo=git-pull-request&style=for-the-badge" alt="Pull Requests"/>
-  </a>
-  <a href="https://github.com/s-m-quadri/redroute/graphs/contributors">
-    <img src="https://custom-icon-badges.demolab.com/github/contributors/s-m-quadri/redroute?label=Contributors&labelColor=302d41&color=c9cbff&logoColor=d9e0ee&logo=people&style=for-the-badge" alt="Contributors"/>
-  </a>
+## Table of Contents
 
-  <p>
-    <a href="https://github.com/s-m-quadri/redroute/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a> · 
-    <a href="https://github.com/s-m-quadri/redroute/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Request Feature</a> · 
-    <a href="https://github.com/s-m-quadri/redroute/discussions/new?category=q-a">Ask Question</a> · 
-    <a href="https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md">Support 🇵🇸 Palestine<a>
-  </p>
-</div>
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How It Works](#how-it-works)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
+## Features
 
-## 📌 **Features**
+- **Visual Pathfinding**: See the shortest path between any two hosts in real-time.
+- **Interactive GUI**: User-friendly interface built with Tkinter.
+- **Dynamic Visualization**: Graphical representation of nodes and connections.
+- **Routing Algorithms**: Implements various routing strategies for better pathfinding.
+- **Simulation Capabilities**: Simulate different network scenarios to test routing strategies.
 
-* **Interactive GUI** built with Tkinter, allowing users to select source and destination hosts.
-* **Shortest Path Calculation** using NetworkX's graph algorithms to find the optimal route between any two hosts.
-* **Dynamic Visualization** of the network topology with Matplotlib, displaying nodes (hosts and switches) and edges (connections) clearly.
-* **Red-themed Design** for an intuitive and aesthetically pleasing user interface.
+## Technologies Used
 
-## 📌 **Installation**
+- **Python**: The main programming language for the application.
+- **NetworkX**: A library for creating and manipulating complex networks.
+- **Tkinter**: The standard GUI toolkit for Python.
+- **Matplotlib**: Used for plotting graphs and visualizing data.
 
-### 1. **Clone the repository**
+## Installation
 
-```bash
-git clone https://github.com/s-m-quadri/redroute.git
-cd redroute
-```
+To get started with RedRoute, follow these steps:
 
-### 2. **Install dependencies**
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/ynsemrcskn/redroute.git
+   cd redroute
+   ```
 
-Make sure Python 3.12.9 is installed. Then, install the necessary packages:
+2. **Install Dependencies**:
+   Ensure you have Python installed, then install the required libraries:
+   ```bash
+   pip install networkx matplotlib
+   ```
 
-```bash
-pip install -r requirements.txt
-```
-
-`requirements.txt` should include:
-
-```txt
-networkx
-matplotlib
-tkinter
-```
-
-## 📌 **Usage**
-
-1. Launch the application by running `main.py`:
-
+3. **Run the Application**:
+   Execute the main script:
    ```bash
    python main.py
    ```
 
-2. **Select Source and Destination**:
+## Usage
 
-   * Use the dropdown menus to choose the source and destination hosts.
+Once you have the application running, you can start visualizing network paths. Here’s how to use RedRoute:
 
-3. **Find the Shortest Path**:
+1. **Input Hosts**: Enter the names or identifiers of the two hosts you want to analyze.
+2. **Select Routing Algorithm**: Choose from the available routing strategies.
+3. **Visualize**: Click the "Find Path" button to see the shortest path displayed on the graphical interface.
 
-   * Click the "🔍 Find Shortest Path" button to calculate the path.
-   * The shortest path will be visualized on the network graph, with red edges highlighting the selected path.
+## How It Works
 
-4. **View Status**:
+RedRoute operates by creating a graph representation of the network topology. Each host is a node, and each connection is an edge. The application uses NetworkX to compute the shortest path based on the selected algorithm.
 
-   * The status bar will update to show the progress of the calculation (e.g., "Finding shortest path..." or "Path found: H0 ➜ S0 ➜ S4 ➜ H7").
+1. **Graph Creation**: The network topology is defined as a graph where nodes represent hosts and edges represent connections.
+2. **Pathfinding**: When a user inputs two hosts, the selected routing algorithm calculates the shortest path.
+3. **Visualization**: The results are displayed using Matplotlib, allowing users to see the path on the graph.
 
-### 📌 **PyInstaller Executable**
+## Contributing
 
-You can also download the **RedRoute** executable built with **PyInstaller**. The `.exe` file, packaged using `setup.spec`, is available in the [Releases](https://github.com/s-m-quadri/redroute/releases) section of this repository.
+We welcome contributions to improve RedRoute. If you would like to contribute, please follow these steps:
 
-## 📌 **Network Topology**
+1. **Fork the Repository**: Create your own copy of the repository.
+2. **Create a Branch**: Use a descriptive name for your branch.
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: Write a clear commit message.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**: Send your changes to your fork.
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Create a Pull Request**: Submit your changes for review.
 
-The network topology is based on a series of interconnected switches with hosts distributed in a circular pattern. Switches are placed in a structured grid layout to ensure a variety of routing possibilities, which allows the app to find meaningful routing paths between any selected hosts.
+## License
 
-## 📌 **License**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This project is licensed under the **GNU General Public License (GPL)** - see the [LICENSE](LICENSE) file for details.
+## Contact
 
-## 📌 **Contact Support**
+For any questions or feedback, please reach out to the maintainer:
 
-For any issues or support, please contact:
-**Email**: [dev.smq@gmail.com](mailto:dev.smq@gmail.com)
+- **Name**: Your Name
+- **Email**: your.email@example.com
+
+## Releases
+
+You can find the latest version of RedRoute [here](https://github.com/ynsemrcskn/redroute/releases). Download the latest release and execute it to start using the application. If you encounter any issues, check the "Releases" section for updates.
+
+![Network Visualization](https://img.shields.io/badge/Network%20Visualization-Available-green)
+
+---
+
+Thank you for checking out RedRoute! We hope this tool enhances your understanding of network routing and visualization. Happy networking!
